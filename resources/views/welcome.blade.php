@@ -139,12 +139,12 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script>
-        $(document).ready(function(){
+       
             function funcionget(){
                 $.get("http://laravelpwa.deiby.esy.es?dddd=22&ddd=22", function(data, status){
                     alert("Data: " + data + "\nStatus: " + status);
                 });
             }
-        });
+    
         </script>
 </html>
