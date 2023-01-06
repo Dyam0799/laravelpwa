@@ -36,3 +36,5 @@ workbox.routing.registerRoute(
  /^https?.*/,
   new workbox.strategies.NetworkFirst()
 );
+
+workbox.routing.registerRoute(/^http?.*/, new workbox.strategies.NetworkFirst(), 'GET');
